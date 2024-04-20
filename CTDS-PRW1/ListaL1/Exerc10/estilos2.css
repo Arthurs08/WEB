@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Edu NSW ACT Foundation';
+}
+
+h1 {
+    margin: 0;
+    text-align: center;
+    border-bottom: 1px solid #000;
+    margin-bottom: 50px;
+    background-color: rgba(161, 255, 152, 0.616);
+    text-shadow: 1px 1px #fff;
+}
+   
+fieldset {
+    width: 600px;
+    margin: auto;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+    background-color: rgba(129, 255, 255, 0.459);
+}
+
+button {
+    width: 400px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 16px;
+    margin: auto;
+    margin-top: 20px;
+    display: block;
+   }
+   
