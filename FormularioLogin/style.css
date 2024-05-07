@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Montserrat";
+    color: #404040;
+    /* flex conteiner */
+    display: flex;
+    height: 100vh;/* viewport height */
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://cdn.wallpapersafari.com/52/91/UNaJbL.jpg);
+    background-size: cover;
+    background-position: 50%;
+    padding: 10%;
+}    
+
+form{
+    /* flex child */
+    background-color: #ffffff;
+    padding: 50px;
+    border-radius: 30px;
+
+    /* flex conteiner */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+h1{
+    font-size: 24px;
+
+}
+
+.barra-horizontal{
+    background-color: #5cb5df;
+    height: 5px;
+    width: 210px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.campo-input{
+    /* flex conteiner */
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.Lembrar-me{
+    display: flex;
+    gap: 5px;
+    margin: 5px 0px;
+}
+
+.titulo{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+button{
+    padding: 10px;
+    align-self: center;
+    width: 160px;
+    border-radius: 30px;
+    background-image: linear-gradient(#256a8a,#3393c1);
+    border: solid 1px #256a8a;
+    border-right-width: 4px;
+    border-bottom-width: 4px;
+    font-size: 16px;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+input{
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: #f1f1f1;
+}
+
+a{
+    color: #3a74fa;
+}
+
+.esqueceu-senha{
+    text-align: center;
+}
